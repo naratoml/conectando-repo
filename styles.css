@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo_aside{
+    color: blue;
+}
+
+.titulo_articulo{
+    color: cornflowerblue;
+}
+.contenido {
+}
