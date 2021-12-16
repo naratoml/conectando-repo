@@ -1,0 +1,3 @@
+function insertPass(){
+    return false;
+}
