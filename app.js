@@ -15,9 +15,9 @@ function calculatePrice (product, price) {
     `Su costo de envío es de $${deliveryCost}. ` + 
     `Por lo tanto, el precio final es de $${finalPrice}.`
     
-    console.log(message);
+    return message;
 }
 
-calculatePrice('Macbook', 2500);
-calculatePrice('Celular', 500);
-calculatePrice('Playstation', 4500);
+console.log(calculatePrice('Macbook', 2500));
+console.log(calculatePrice('Celular', 500));
+console.log(calculatePrice('Playstation', 4500));

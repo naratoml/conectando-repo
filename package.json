@@ -1,0 +1,22 @@
+{
+  "name": "conectando-repo",
+  "version": "1.0.0",
+  "description": "--- Este es un nuevo branch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naratoml/conectando-repo.git"
+  },
+  "author": "nico arato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naratoml/conectando-repo/issues"
+  },
+  "homepage": "https://github.com/naratoml/conectando-repo#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
