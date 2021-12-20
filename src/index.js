@@ -46,8 +46,8 @@ app.get('/api/product/:id', (req, res)=> {
 
 app.post('/api/product', (req, res)=> {
     let obj = req.body;
-    let idx = id + 1;
-    obj.id = idx;
+    id++;
+    obj.id = id;
     products.push(obj);
     res.status(200).send('Nuevo producto agregado.');
 });
